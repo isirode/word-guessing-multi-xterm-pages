@@ -20614,9 +20614,9 @@ class FetchProgress {
 // However, that function might be called multiple times, and on subsequent calls, we don't actually want it to instantiate a new instance of the Module
 // Instead, we want to return the previously loaded module
 // TODO: Make this not declare a global if used in the browser
+var Buffer = require("f72bf7722dcc5354").Buffer;
 var __dirname = "../../node_modules/sql.js/dist";
 var process = require("777088fae9af0371");
-var Buffer = require("f72bf7722dcc5354").Buffer;
 var initSqlJsPromise = undefined;
 var initSqlJs = function(moduleConfig) {
     if (initSqlJsPromise) return initSqlJsPromise;
@@ -23294,8 +23294,8 @@ exports.constants = {
 };
 
 },{"55b0198e6a2802d2":"b1yv8","3145712233e0eae7":"hLOTB","44ba4e8d12696ad1":"cdz4G","4385cdb5ddca0324":"jqpjJ","f8101de0f527bd1":"1yDuB","451d8734cdb3d89e":"gGlUo","ad38155f7cdf7e5b":"hYaW2","e6e5a0015fe88c14":"3JnYn","6a1681ee887716ff":"6IOX5","43e75c2b47db8816":"1HbRg","809eeaf1b9097a67":"4C8vd"}],"b1yv8":[function(require,module,exports) {
-var global = arguments[3];
 var process = require("45a403e18aab7549");
+var global = arguments[3];
 "use strict";
 // limit of Crypto.getRandomValues()
 // https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues
@@ -29604,8 +29604,8 @@ Object.defineProperty(Duplex.prototype, "destroyed", {
 // A bit simpler than readable streams.
 // Implement an async ._write(chunk, encoding, cb), and it'll handle all
 // the drain event emission and buffering.
-var global = arguments[3];
 var process = require("5ca04d55e8a8fb5b");
+var global = arguments[3];
 "use strict";
 module.exports = Writable;
 /* <replacement> */ function WriteReq(chunk, encoding, cb) {
