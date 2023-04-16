@@ -2,6 +2,8 @@
 
 This is the Github Pages of [word-guessing-multi-xterm](https://github.com/isirode/word-guessing-multi-xterm).
 
+The URL is https://isirode.github.io/word-guessing-multi-xterm-pages
+
 ## License
 
 It is provided with the GNU AFFERO GENERAL PUBLIC LICENSE.
